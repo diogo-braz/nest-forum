@@ -24,7 +24,7 @@ Content-Type: application/json
 
 ###
 
-# @name create-question
+# @name create_question
 POST {{baseUrl}}/questions
 Content-Type: application/json
 Authorization: Bearer {{authToken}}
@@ -33,3 +33,10 @@ Authorization: Bearer {{authToken}}
   "title": "Nova dúvida",
   "content": "Conteúdo teste"
 }
+
+###
+
+# @name fetch_recent_questions
+GET {{baseUrl}}/questions?page=1
+Content-Type: application/json
+Authorization: Bearer {{authToken}}
