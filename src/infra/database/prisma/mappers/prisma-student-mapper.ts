@@ -20,14 +20,6 @@ export class PrismaStudentMapper {
       name: student.name,
       email: student.email,
       password: student.password,
-      //   id: student.id.toString(),
-      //   authorId: student.authorId.toString(),
-      //   bestAnswerId: student.bestAnswerId?.toString(),
-      //   title: student.title,
-      //   content: student.content,
-      //   slug: student.slug.value,
-      //   createdAt: student.createdAt,
-      //   updatedAt: student.updatedAt,
     }
   }
 }
